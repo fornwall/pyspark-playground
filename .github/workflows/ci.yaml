@@ -11,3 +11,4 @@ jobs:
     - uses: Gr1N/setup-poetry@v8
     - run: poetry install
     - run: poetry run hello
+    - run: poetry run csv
