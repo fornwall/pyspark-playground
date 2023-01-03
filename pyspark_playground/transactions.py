@@ -20,8 +20,10 @@ def main():
 
     # Give alias to column - https://stackoverflow.com/questions/34394745/how-could-i-order-by-sum-within-a-dataframe-in-pyspark
     print("  - Two topmost spenders")
-    df.groupBy('UserId') \
+    df \
+        .filter(df.Amount < 0) \
+        .groupBy('UserId') \
         .agg(func.sum('Amount').alias('AmountSum')) \
-        .orderBy(func.col('AmountSum').desc()) \
+        .orderBy(func.col('AmountSum').asc()) \
         .limit(2) \
         .show()
