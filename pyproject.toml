@@ -17,5 +17,6 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 hello = "pyspark_playground.hello:main"
 csv = "pyspark_playground.csv:main"
+transactions = "pyspark_playground.transactions:main"
 
 

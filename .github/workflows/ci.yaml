@@ -12,3 +12,4 @@ jobs:
     - run: poetry install
     - run: poetry run hello
     - run: poetry run csv
+    - run: poetry run transactions
