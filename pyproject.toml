@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyspark-playground"
+version = "0.1.0"
+description = ""
+authors = ["Fredrik Fornwall <fredrik@fornwall.net>"]
+readme = "README.md"
+packages = [{include = "pyspark_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "3.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hello = "pyspark_playground.hello:main"
+
