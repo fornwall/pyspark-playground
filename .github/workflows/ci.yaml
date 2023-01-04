@@ -12,4 +12,5 @@ jobs:
     - run: poetry install
     - run: poetry run hello
     - run: poetry run csv
-    - run: poetry run transactions
+    - run: poetry run transactions-csv
+    - run: poetry run transactions-avro

@@ -1,7 +1,14 @@
 UserId,Amount
 user_1,10
+user_1,-20
 user_2,30
 user_1,2
+user_1,-20
+user_2,-40
+user_3,-10
+user_4,-30
+user_5,-40
+user_5,-20
 user_1,4
 user_2,10
 user_3,1
