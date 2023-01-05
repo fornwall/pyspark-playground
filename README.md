@@ -12,3 +12,5 @@ Run scripts under [pyspark_playground](pyspark_playground/) using `poetry run`:
 - `poetry run transactions-csv`
 - `poetry run transactions-avro`
 
+# Resources
+- [pyspark.sql.DataFrame API documentation](https://spark.apache.org/docs/3.1.1/api/python/reference/api/pyspark.sql.DataFrame.html)
