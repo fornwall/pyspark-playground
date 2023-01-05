@@ -19,5 +19,6 @@ hello = "pyspark_playground.hello:main"
 csv = "pyspark_playground.csv:main"
 transactions-csv = "pyspark_playground.transactions-csv:main"
 transactions-avro = "pyspark_playground.transactions-avro:main"
+join = "pyspark_playground.join:main"
 
 
